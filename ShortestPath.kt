@@ -132,7 +132,7 @@ class Graph(mapString: String) {
     private val horVerY = listOf(-1, 0, 1, 0)   // |
     
     private val routableIndices = mutableListOf<Int>()
-    // the purpose of these maps is to save some memory as we do not need to store 'B' in graph.
+    // The purpose of these maps is to save some memory as we do not need to store 'B' in graph.
     // I call it 'continuous' universe
     private val rawIndicesToContinuos = mutableMapOf<Int, Int>()
     private val continuosIndicesToRaw = mutableMapOf<Int, Int>()
